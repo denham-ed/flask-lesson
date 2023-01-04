@@ -48,7 +48,10 @@
   </div>
 
   {% endif %} 
+
+  {% if not loop.last %}
   <hr class="featurette-divider" />
+  {% endif %}
 
 
 {% endfor %} 
